@@ -1,57 +1,103 @@
- .speech{
-        font-family:fantasy;
-        size: 60%;
-         color: black;
-    }
+.speech{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size:15px;
+    color:#000000;
+}
+
+.direction{
+   font-family:Arial, Helvetica, sans-serif ;
+   font-size:13px;
+   color:black;
+   background-color:lightgrey;
+}
+
+.direction:hover{
+   background-color:lightblue;
+   color:white;
+}
+
+.ALVING{
+    color:green;
+}
+
+.OSWALD{
+ color:blueviolet;
+
+}
+
+
+
+.MRS.ALVING:hover{
+    box-shadow: 2px 2px 10px black;
+    border:2px solid red;
+}
+.OSWALD:hover{
+    box-shadow: 2px 2px 10px black;
+    border:2px solid blue;
+}
+
+.table {
+    border-collapse: separate;
+    width: 80%; 
+    margin: 20px auto;
+}
+
+
+th {
+    background-color:grey;
+    border: 1px solid black; 
+    text-align: center;
+    padding: 10px;
+    color:white;
     
-    .direction{
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 90%;
-        color:black;
-        background-color:cornsilk;
-    }
-    
-    .direction:hover{
-        color:crimson;
-        background-color:darkcyan;
-    }
-    
-    .name{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 70%;
-    }
-    
-    .tesman{
-        color:blueviolet;
-        font-family:Arial, Helvetica, sans-serif;
-        font-size: 80%;
-    }
-    
-    .missTesman{
-        color:chocolate;
-        font-family: cursive;
-    }
-    
-    .hedda{
-        color: rgb(26, 95, 21);
-        font-family:sans-serif;
-        font-size: 78%;
-    }
-    
-    table{
-        border-collapse:inherit;
-        border-spacing: 1;
-        width: 89%;
-        margin: 20px 55px 70px;
-        border: 1px solid #0a6173;
-    }
-    
-    th, td {
-        text-align: left;
-        padding: 15px;
-        border: 1px solid #080d0e;
-      }
-    
-    tr:nth-child(even) {
-        background-color: #afd8e0;
-      }
+}
+
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color:beige; 
+}
+
+tr:nth-child(odd) {
+    background-color:antiquewhite;
+}
+
+ul.horizontal-navbar{
+
+width:100 px;
+background-color:beige;
+}
+
+ul.horizontal-navbar li {
+    display: inline;
+    margin-right: 30px;
+}
+
+ul.horizontal-navbar a {
+    display: inline;
+    text-decoration: none; 
+    color:black;
+    font-weight: bold;
+}
+
+
+ul.horizontal-navbar a:hover {
+    color: #FF5733;
+}
+
+.container {
+    text-align: center; /* Center the image horizontally */
+    margin: 20px; /* Add spacing around the image container */
+}
+
+img{
+    max-width: 100%; 
+    height: auto;
+    border: 2px solid grey;
+    box-shadow: 0 0 10px black;
+}
